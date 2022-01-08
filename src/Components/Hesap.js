@@ -4,7 +4,6 @@ import Navbar from "./Navbar";
 import "./Style/hesap.css";
 import "alertifyjs/build/css/alertify.css";
 import alertify from "alertifyjs";
-import Footer2 from "./Footer2.js"
 
 export class Hesap extends Component {
   constructor(props) {
@@ -282,7 +281,10 @@ export class Hesap extends Component {
             <Input type="submit" value="Hesapla"></Input>
           </Form>
         </div>
-        <Footer2/>
+        <footer className="footer"> <p>
+          1811012017 Dolunay DÖKDÖK-1811012047 Burak Emirhan YILDIRIM-1811012053 Ali Sezer YILMAZ
+        </p></footer>
+        
       </div>
     );
   }

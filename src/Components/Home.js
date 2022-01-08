@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import "./Style/home.css";
-import Footer from "./Footer";
 
 export class Home extends Component {
   render() {
@@ -55,8 +54,9 @@ export class Home extends Component {
             </p>
           </p>
         </div>
-
-        <Footer />
+        <footer className="footer"> <p>
+          1811012017 Dolunay DÖKDÖK-1811012047 Burak Emirhan YILDIRIM-1811012053 Ali Sezer YILMAZ
+        </p></footer>
       </div>
     );
   }
