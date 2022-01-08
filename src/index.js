@@ -18,7 +18,7 @@ ReactDOM.render(
   <Route path="/" element={<App />} />
 
     
-    <Route path="/hesap" element={<Hesap />} />
+    <Route path="https://insaatmaliyethesabi.netlify.app/hesap" element={<Hesap />} />
   </Routes>
 
 </BrowserRouter>
