@@ -3,7 +3,7 @@
 
 .hesap{
   background-image: url("https://cdn.discordapp.com/attachments/920268099234713653/929370584603832400/walpaper.jpg");
-  position: fixed;
+  position: absolute;
   min-width: 100%;
   min-height: 100%;
   background-size: cover;

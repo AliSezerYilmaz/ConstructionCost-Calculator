@@ -3,7 +3,7 @@
   text-align: center;
   background-color: #000000;
   color: white;
-  position: fixed;
+  position: relative;
     bottom: -15px;
     left: 0px;
     right: 0px;

@@ -1,16 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Style/navbar.css";
 
 const Navbar = () => {
   return (
     <ul>
-      <a className="tanıtım" href="/">
+      <Link className="tanıtım" to="/">
         Projenin Tanıtımı
-      </a>
-      <a className="proje" href="/hesap">
+      </Link>
+      <Link className="proje" to="/hesap">
         Maliyet Hesaplama
-      </a>
+      </Link>
     </ul>
   );
 };

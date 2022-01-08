@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import "./Style/hesap.css";
 import "alertifyjs/build/css/alertify.css";
 import alertify from "alertifyjs";
-import Footer from "./Footer.js"
+import Footer2 from "./Footer2.js"
 
 export class Hesap extends Component {
   constructor(props) {
@@ -282,7 +282,7 @@ export class Hesap extends Component {
             <Input type="submit" value="Hesapla"></Input>
           </Form>
         </div>
-        <Footer/>
+        <Footer2/>
       </div>
     );
   }
