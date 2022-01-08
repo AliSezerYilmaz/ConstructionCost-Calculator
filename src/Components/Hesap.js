@@ -70,11 +70,12 @@ export class Hesap extends Component {
       );
 
     raw = raw.toString();
-    var pattern = /(-?\d+)(\d{3})/;
-    while (pattern.test(raw)) raw = raw.replace(pattern, "$1,$2");
+    if(raw<20000){
+          raw="senin yapacağın hesabın aq"
+        }
 
     alertify
-      .alert(`${raw} ₺`, function () {
+      .alert(`${raw}`, function () {
         window.location.reload();
       })
       .set({ title: "Proje Ücreti" })
