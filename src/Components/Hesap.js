@@ -75,7 +75,7 @@ export class Hesap extends Component {
 
     alertify
       .alert(`${raw} ₺`, function () {
-        window.location.reload(true);
+        window.location.reload();
       })
       .set({ title: "Proje Ücreti" })
       .set({ label: "Tamam" });
