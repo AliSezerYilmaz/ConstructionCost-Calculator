@@ -70,13 +70,18 @@ export class Hesap extends Component {
       );
 
     raw = raw.toString();
-    if(raw<2000000){
-          raw="senin yapacağın hesabın aq"
-        }
-
+    var pattern = /(-?\d+)(\d{3})/;
+    while (pattern.test(raw)) raw = raw.replace(pattern, "$1,$2");
+        let main=this;
     alertify
-      .alert(`${raw}`, function () {
-        window.location.reload();
+      .alert(`${raw} ₺`, function () {
+        main.setState({ yapıA: "",
+        bolgeK: "",
+        birimM: "",
+        yapıSK: "",
+        projeUO: "",
+        projeYK: "",
+        hizmetB: ""})
       })
       .set({ title: "Proje Ücreti" })
       .set({ label: "Tamam" });
