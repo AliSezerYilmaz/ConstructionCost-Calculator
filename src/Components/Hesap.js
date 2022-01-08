@@ -70,7 +70,7 @@ export class Hesap extends Component {
       );
 
     raw = raw.toString();
-    if(raw<20000){
+    if(raw<2000000){
           raw="senin yapacağın hesabın aq"
         }
 
