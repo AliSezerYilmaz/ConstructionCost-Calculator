@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap%27');
+
+
+.hesap{
+  background-image: url("https://cdn.discordapp.com/attachments/920268099234713653/929370584603832400/walpaper.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  
+
+}
+input[type=submit]:hover {
+    background-color: gray;
+    font-family: 'Cursive';
+
+
+    
+  }
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    margin-top: 3% ;
+    font-family: 'Cursive';
+    border: 3px black solid;
+    border-radius: 15px;
+    width: 100%;
+    font-size: 120%;
+  }
+  label{
+    color: white;
+      font-family: 'Monospace';
+      text-align: 'center';
+      height: auto;
+  }
+  a{
+    font-family: 'Merriweather', serif;
+    margin-left: 1%;
+  }
+  input.data{
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 15px;
+  }
+  input[type=select]{
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 15px;
+  }
+  div.ajs-header{
+    color: black;
+    margin-left: 25%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+ 
+  div.ajs-content{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  

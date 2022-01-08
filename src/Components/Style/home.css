@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap%27');
+
+.home{
+    background-image: url("https://cdn.discordapp.com/attachments/920268099234713653/929370584603832400/walpaper.jpg");
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.icerik{
+    font-size: 75%;
+    padding: 3%;
+    text-align: center;
+}
+h6{
+    font-family: fantasy;
+}  
+b{
+    font-family: 'Merriweather', serif;
+    
+    
+}
