@@ -8,7 +8,7 @@ const Navbar = () => {
       <a className="tanıtım" href="/">
         Projenin Tanıtımı
       </a>
-      <a className="proje" href="/hesap">
+      <a className="proje" href="https://insaatmaliyethesabi.netlify.app/hesap">
         Maliyet Hesaplama
       </a>
     </ul>
