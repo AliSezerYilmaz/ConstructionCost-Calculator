@@ -55,7 +55,7 @@ export class Home extends Component {
           </p>
         </div>
         <footer className="footer"> <p>
-          1811012017 Dolunay DÖKDÖK-1811012047 Burak Emirhan YILDIRIM-1811012053 Ali Sezer YILMAZ
+          Ali Sezer YILMAZ
         </p></footer>
       </div>
     );
